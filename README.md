@@ -1,2 +1,2 @@
 # gestor-biblioteca
-Repositorio para el proyecto de gestor de biblioteca
+Repositorio Back Endpara el proyecto de gestor de biblioteca
