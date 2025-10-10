@@ -1,0 +1,11 @@
+C:\Users\godin\source\repos\ReadHub\ReadHub.Domain\bin\Debug\net9.0\ReadHub.Domain.deps.json
+C:\Users\godin\source\repos\ReadHub\ReadHub.Domain\bin\Debug\net9.0\ReadHub.Domain.dll
+C:\Users\godin\source\repos\ReadHub\ReadHub.Domain\bin\Debug\net9.0\ReadHub.Domain.pdb
+C:\Users\godin\source\repos\ReadHub\ReadHub.Domain\obj\Debug\net9.0\ReadHub.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\godin\source\repos\ReadHub\ReadHub.Domain\obj\Debug\net9.0\ReadHub.Domain.AssemblyInfoInputs.cache
+C:\Users\godin\source\repos\ReadHub\ReadHub.Domain\obj\Debug\net9.0\ReadHub.Domain.AssemblyInfo.cs
+C:\Users\godin\source\repos\ReadHub\ReadHub.Domain\obj\Debug\net9.0\ReadHub.Domain.csproj.CoreCompileInputs.cache
+C:\Users\godin\source\repos\ReadHub\ReadHub.Domain\obj\Debug\net9.0\ReadHub.Domain.dll
+C:\Users\godin\source\repos\ReadHub\ReadHub.Domain\obj\Debug\net9.0\refint\ReadHub.Domain.dll
+C:\Users\godin\source\repos\ReadHub\ReadHub.Domain\obj\Debug\net9.0\ReadHub.Domain.pdb
+C:\Users\godin\source\repos\ReadHub\ReadHub.Domain\obj\Debug\net9.0\ref\ReadHub.Domain.dll
