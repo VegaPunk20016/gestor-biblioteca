@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReadHub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89e8aa7757d7a8aff77432549dd612608a28023f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReadHub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReadHub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

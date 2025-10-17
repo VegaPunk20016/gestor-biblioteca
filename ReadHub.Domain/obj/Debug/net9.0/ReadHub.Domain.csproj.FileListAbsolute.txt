@@ -9,3 +9,15 @@ C:\Users\godin\source\repos\ReadHub\ReadHub.Domain\obj\Debug\net9.0\ReadHub.Doma
 C:\Users\godin\source\repos\ReadHub\ReadHub.Domain\obj\Debug\net9.0\refint\ReadHub.Domain.dll
 C:\Users\godin\source\repos\ReadHub\ReadHub.Domain\obj\Debug\net9.0\ReadHub.Domain.pdb
 C:\Users\godin\source\repos\ReadHub\ReadHub.Domain\obj\Debug\net9.0\ref\ReadHub.Domain.dll
+C:\Users\godin\gestor-biblioteca\ReadHub.Domain\bin\Debug\net9.0\ReadHub.Domain.deps.json
+C:\Users\godin\gestor-biblioteca\ReadHub.Domain\bin\Debug\net9.0\ReadHub.Domain.dll
+C:\Users\godin\gestor-biblioteca\ReadHub.Domain\bin\Debug\net9.0\ReadHub.Domain.pdb
+C:\Users\godin\gestor-biblioteca\ReadHub.Domain\obj\Debug\net9.0\ReadHub.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\godin\gestor-biblioteca\ReadHub.Domain\obj\Debug\net9.0\ReadHub.Domain.AssemblyInfoInputs.cache
+C:\Users\godin\gestor-biblioteca\ReadHub.Domain\obj\Debug\net9.0\ReadHub.Domain.AssemblyInfo.cs
+C:\Users\godin\gestor-biblioteca\ReadHub.Domain\obj\Debug\net9.0\ReadHub.Domain.csproj.CoreCompileInputs.cache
+C:\Users\godin\gestor-biblioteca\ReadHub.Domain\obj\Debug\net9.0\ReadHub.Domain.sourcelink.json
+C:\Users\godin\gestor-biblioteca\ReadHub.Domain\obj\Debug\net9.0\ReadHub.Domain.dll
+C:\Users\godin\gestor-biblioteca\ReadHub.Domain\obj\Debug\net9.0\refint\ReadHub.Domain.dll
+C:\Users\godin\gestor-biblioteca\ReadHub.Domain\obj\Debug\net9.0\ReadHub.Domain.pdb
+C:\Users\godin\gestor-biblioteca\ReadHub.Domain\obj\Debug\net9.0\ref\ReadHub.Domain.dll

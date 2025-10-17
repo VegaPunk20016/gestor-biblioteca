@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\godin\\source\\repos\\ReadHub\\ReadHub.Domain\\ReadHub.Domain.csproj": {}
+    "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\ReadHub.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\godin\\source\\repos\\ReadHub\\ReadHub.Domain\\ReadHub.Domain.csproj": {
+    "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\ReadHub.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\godin\\source\\repos\\ReadHub\\ReadHub.Domain\\ReadHub.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\ReadHub.Domain.csproj",
         "projectName": "ReadHub.Domain",
-        "projectPath": "C:\\Users\\godin\\source\\repos\\ReadHub\\ReadHub.Domain\\ReadHub.Domain.csproj",
+        "projectPath": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\ReadHub.Domain.csproj",
         "packagesPath": "C:\\Users\\godin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\godin\\source\\repos\\ReadHub\\ReadHub.Domain\\obj\\",
+        "outputPath": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -21,6 +21,7 @@ namespace ReadHub.Application.Services
         {
             _userRepository = userRepository;
             _config = config;
+
             _passwordHasher = new PasswordHasher<User>();
         }
 

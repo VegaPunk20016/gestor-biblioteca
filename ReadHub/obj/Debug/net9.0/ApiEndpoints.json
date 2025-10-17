@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "ReadHub.Controllers.LoginDto",
+        "Name": "loginDto",
+        "Type": "ReadHub.Application.Dtos.LoginDto",
         "IsRequired": true
       }
     ],
@@ -24,8 +24,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "ReadHub.Controllers.RegisterDto",
+        "Name": "registerDto",
+        "Type": "ReadHub.Application.Dtos.RegisterDto",
         "IsRequired": true
       }
     ],
@@ -40,7 +40,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
+        "Name": "assignRoleRequestdto",
         "Type": "ReadHub.Application.Dtos.AssignRoleRequest",
         "IsRequired": true
       }

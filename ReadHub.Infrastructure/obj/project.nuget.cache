@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MJslkn3ChD4=",
+  "dgSpecHash": "gE+/QtCrK1I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\godin\\source\\repos\\ReadHub\\ReadHub.Infrastructure\\ReadHub.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Infrastructure\\ReadHub.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\godin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\godin\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

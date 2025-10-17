@@ -1,11 +1,6 @@
 ﻿using ReadHub.Domain.Entities;
 using ReadHub.Domain.Interfaces;
 using ReadHub.Infrastructure.DataContext;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ReadHub.Infrastructure.Persistence
 {

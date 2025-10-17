@@ -19,7 +19,8 @@ namespace ReadHub.Controllers
         [HttpPost("assign")]
         public async Task<IActionResult> AssignRole([FromBody] AssignRoleRequest assignRoleRequestdto)
         {
-            await _userRoleService.AssignRoleAsync(assignRoleRequestdto.Username, assignRoleRequestdto.Email, assignRoleRequestdto.Password, dto.RoleName);
+            await _userRoleService.AssignRoleAsync(assignRoleRequestdto.Username, assignRoleRequestdto.Email,
+                assignRoleRequestdto.Password, assignRoleRequestdto.RoleName);
             return Ok($"Rol '{assignRoleRequestdto.RoleName}' asignado correctamente al usuario '{assignRoleRequestdto.Username}'.");
         }
     }
