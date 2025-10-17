@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using ReadHub.Domain.Entities;
 using ReadHub.Domain.Interfaces;
@@ -13,12 +14,16 @@ namespace ReadHub.Application.Services
     {
         private readonly IUserRepository _userRepository;
         private readonly IConfiguration _config;
+        private readonly PasswordHasher<User> _passwordHasher;
+
 
         public AuthService(IUserRepository userRepository, IConfiguration config)
         {
             _userRepository = userRepository;
             _config = config;
+            _passwordHasher = new PasswordHasher<User>();
         }
+
         public async Task RegisterAsync(string username, string email, string phone, string password)
         {
             var existingUser = await _userRepository.GetByEmailAsync(email);
@@ -30,10 +35,10 @@ namespace ReadHub.Application.Services
                 Id = Guid.NewGuid(),
                 Username = username,
                 Email = email,
-                PhoneNumber = phone,
-                PasswordHash = HashPassword(password)
+                PhoneNumber = phone
             };
 
+            user.PasswordHash = _passwordHasher.HashPassword(user, password);
             await _userRepository.AddAsync(user);
             await _userRepository.SaveChangesAsync();
         }
@@ -42,18 +47,17 @@ namespace ReadHub.Application.Services
         public async Task<string?> LoginAsync(string email, string password)
         {
             var user = await _userRepository.GetByEmailAsync(email);
-            if (user == null || user.PasswordHash != HashPassword(password))
+            if (user == null)
+                return null;
+
+            var result = _passwordHasher.VerifyHashedPassword(user, user.PasswordHash, password);
+            if (result == PasswordVerificationResult.Failed)
                 return null;
 
             return GenerateJwtToken(user);
         }
 
-        private string HashPassword(string password)
-        {
-            using var sha256 = SHA256.Create();
-            var bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
-            return Convert.ToBase64String(bytes);
-        }
+     
 
         private string GenerateJwtToken(User user)
         {
@@ -64,7 +68,6 @@ namespace ReadHub.Application.Services
                 new Claim("username", user.Username)
             };
 
-            // Añadimos roles si tiene
             foreach (var role in user.UserRoles.Select(ur => ur.Role.Name))
             {
                 claims.Add(new Claim(ClaimTypes.Role, role));

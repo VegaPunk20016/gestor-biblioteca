@@ -17,10 +17,10 @@ namespace ReadHub.Controllers
         }
 
         [HttpPost("assign")]
-        public async Task<IActionResult> AssignRole([FromBody] AssignRoleRequest dto)
+        public async Task<IActionResult> AssignRole([FromBody] AssignRoleRequest assignRoleRequestdto)
         {
-            await _userRoleService.AssignRoleAsync(dto.Username, dto.Email, dto.Password, dto.RoleName);
-            return Ok($"Rol '{dto.RoleName}' asignado correctamente al usuario '{dto.Username}'.");
+            await _userRoleService.AssignRoleAsync(assignRoleRequestdto.Username, assignRoleRequestdto.Email, assignRoleRequestdto.Password, dto.RoleName);
+            return Ok($"Rol '{assignRoleRequestdto.RoleName}' asignado correctamente al usuario '{assignRoleRequestdto.Username}'.");
         }
     }
 }
