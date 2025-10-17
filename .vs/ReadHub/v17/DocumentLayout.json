@@ -108,7 +108,7 @@
               "RelativeDocumentMoniker": ".gitignore.txt",
               "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\.gitignore.txt",
               "RelativeToolTip": ".gitignore.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-10-17T20:37:22.931Z",
               "EditorCaption": ""
@@ -123,8 +123,7 @@
               "RelativeToolTip": "ReadHub\\appsettings.json",
               "ViewState": "AgIAAA4AAAAAAAAAAAAIwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-16T23:21:14.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T23:21:14.106Z"
             },
             {
               "$type": "Document",
@@ -136,8 +135,7 @@
               "RelativeToolTip": "ReadHub.Domain\\Entities\\UserRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:08:02.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T23:08:02.675Z"
             },
             {
               "$type": "Document",
@@ -149,8 +147,7 @@
               "RelativeToolTip": "ReadHub.Infrastructure\\DataContext\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T14:46:38.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-17T14:46:38.87Z"
             },
             {
               "$type": "Document",
@@ -162,8 +159,7 @@
               "RelativeToolTip": "ReadHub.Domain\\Entities\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:53:34.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T23:53:34.292Z"
             },
             {
               "$type": "Document",
@@ -175,8 +171,7 @@
               "RelativeToolTip": "ReadHub\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:37:14.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T23:37:14.697Z"
             },
             {
               "$type": "Document",
@@ -188,8 +183,7 @@
               "RelativeToolTip": "ReadHub.Infrastructure\\Persistence\\UserRoleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:08:46.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T23:08:46.097Z"
             },
             {
               "$type": "Document",
@@ -201,8 +195,7 @@
               "RelativeToolTip": "ReadHub.Application\\Dtos\\AssignRoleRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T22:50:36.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T22:50:36.227Z"
             },
             {
               "$type": "Document",
@@ -214,8 +207,7 @@
               "RelativeToolTip": "ReadHub.Application\\Dtos\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T22:53:46.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T22:53:46.806Z"
             },
             {
               "$type": "Document",
@@ -227,8 +219,7 @@
               "RelativeToolTip": "ReadHub.Application\\Dtos\\RegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T22:52:37.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T22:52:37.559Z"
             },
             {
               "$type": "Document",
@@ -240,8 +231,7 @@
               "RelativeToolTip": "ReadHub.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAwA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:07:53.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T23:07:53.459Z"
             },
             {
               "$type": "Document",
@@ -253,8 +243,7 @@
               "RelativeToolTip": "ReadHub.Infrastructure\\Persistence\\RoleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:08:38.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T23:08:38.573Z"
             },
             {
               "$type": "Document",
@@ -266,8 +255,7 @@
               "RelativeToolTip": "ReadHub.Infrastructure\\Persistence\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:08:27.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T23:08:27.417Z"
             },
             {
               "$type": "Document",
@@ -279,8 +267,7 @@
               "RelativeToolTip": "ReadHub.Domain\\Interfaces\\IUserRoleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T14:46:15.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-17T14:46:15.674Z"
             },
             {
               "$type": "Document",
@@ -292,8 +279,7 @@
               "RelativeToolTip": "ReadHub.Domain\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:05:40.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T23:05:40.34Z"
             },
             {
               "$type": "Document",
@@ -305,8 +291,7 @@
               "RelativeToolTip": "ReadHub.Domain\\Interfaces\\IRoleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:08:14.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T23:08:14.306Z"
             },
             {
               "$type": "Document",
@@ -318,8 +303,7 @@
               "RelativeToolTip": "ReadHub.Application\\Services\\UserRoleService.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAuwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:25:15.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T23:25:15.139Z"
             },
             {
               "$type": "Document",
@@ -331,8 +315,7 @@
               "RelativeToolTip": "ReadHub.Application\\Services\\AuthService.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAuwFoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:00:05.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T23:00:05.494Z"
             },
             {
               "$type": "Document",
@@ -344,8 +327,7 @@
               "RelativeToolTip": "ReadHub\\Controllers\\RolesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T22:49:27.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T22:49:27.789Z"
             },
             {
               "$type": "Document",
@@ -357,8 +339,7 @@
               "RelativeToolTip": "ReadHub\\Controllers\\AuthController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAA8wDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T22:49:36.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T22:49:36.372Z"
             }
           ]
         },
