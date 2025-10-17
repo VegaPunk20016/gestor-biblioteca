@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\godin\\gestor-biblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|C:\\Users\\godin\\gestor-biblioteca\\.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|solutionrelative:.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{8F084C53-3A0C-4ADE-873C-C6808970FF72}|ReadHub.Infrastructure\\ReadHub.Infrastructure.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub.infrastructure\\persistence\\userrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F084C53-3A0C-4ADE-873C-C6808970FF72}|ReadHub.Infrastructure\\ReadHub.Infrastructure.csproj|solutionrelative:readhub.infrastructure\\persistence\\userrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E33A7524-7DE1-4E52-854A-0B2986188939}|ReadHub\\ReadHub.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E33A7524-7DE1-4E52-854A-0B2986188939}|ReadHub\\ReadHub.csproj|solutionrelative:readhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8F084C53-3A0C-4ADE-873C-C6808970FF72}|ReadHub.Infrastructure\\ReadHub.Infrastructure.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub.infrastructure\\persistence\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F084C53-3A0C-4ADE-873C-C6808970FF72}|ReadHub.Infrastructure\\ReadHub.Infrastructure.csproj|solutionrelative:readhub.infrastructure\\persistence\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F084C53-3A0C-4ADE-873C-C6808970FF72}|ReadHub.Infrastructure\\ReadHub.Infrastructure.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub.infrastructure\\persistence\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F084C53-3A0C-4ADE-873C-C6808970FF72}|ReadHub.Infrastructure\\ReadHub.Infrastructure.csproj|solutionrelative:readhub.infrastructure\\persistence\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F084C53-3A0C-4ADE-873C-C6808970FF72}|ReadHub.Infrastructure\\ReadHub.Infrastructure.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub.infrastructure\\datacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,6 +31,14 @@
       "RelativeMoniker": "D:0:0:{7912A230-848A-4066-AA60-3FECBF832D66}|ReadHub.Domain\\ReadHub.Domain.csproj|solutionrelative:readhub.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1ED3A303-635D-48ED-BCD0-B5D96907F515}|ReadHub.Application\\ReadHub.Application.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub.application\\services\\userroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED3A303-635D-48ED-BCD0-B5D96907F515}|ReadHub.Application\\ReadHub.Application.csproj|solutionrelative:readhub.application\\services\\userroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED3A303-635D-48ED-BCD0-B5D96907F515}|ReadHub.Application\\ReadHub.Application.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED3A303-635D-48ED-BCD0-B5D96907F515}|ReadHub.Application\\ReadHub.Application.csproj|solutionrelative:readhub.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1ED3A303-635D-48ED-BCD0-B5D96907F515}|ReadHub.Application\\ReadHub.Application.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1ED3A303-635D-48ED-BCD0-B5D96907F515}|ReadHub.Application\\ReadHub.Application.csproj|solutionrelative:readhub.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,16 +55,24 @@
       "RelativeMoniker": "D:0:0:{E33A7524-7DE1-4E52-854A-0B2986188939}|ReadHub\\ReadHub.csproj|solutionrelative:readhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F084C53-3A0C-4ADE-873C-C6808970FF72}|ReadHub.Infrastructure\\ReadHub.Infrastructure.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub.infrastructure\\persistence\\userrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F084C53-3A0C-4ADE-873C-C6808970FF72}|ReadHub.Infrastructure\\ReadHub.Infrastructure.csproj|solutionrelative:readhub.infrastructure\\persistence\\userrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E33A7524-7DE1-4E52-854A-0B2986188939}|ReadHub\\ReadHub.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E33A7524-7DE1-4E52-854A-0B2986188939}|ReadHub\\ReadHub.csproj|solutionrelative:readhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F084C53-3A0C-4ADE-873C-C6808970FF72}|ReadHub.Infrastructure\\ReadHub.Infrastructure.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub.infrastructure\\persistence\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F084C53-3A0C-4ADE-873C-C6808970FF72}|ReadHub.Infrastructure\\ReadHub.Infrastructure.csproj|solutionrelative:readhub.infrastructure\\persistence\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E33A7524-7DE1-4E52-854A-0B2986188939}|ReadHub\\ReadHub.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33A7524-7DE1-4E52-854A-0B2986188939}|ReadHub\\ReadHub.csproj|solutionrelative:readhub\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F084C53-3A0C-4ADE-873C-C6808970FF72}|ReadHub.Infrastructure\\ReadHub.Infrastructure.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub.infrastructure\\persistence\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F084C53-3A0C-4ADE-873C-C6808970FF72}|ReadHub.Infrastructure\\ReadHub.Infrastructure.csproj|solutionrelative:readhub.infrastructure\\persistence\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E33A7524-7DE1-4E52-854A-0B2986188939}|ReadHub\\ReadHub.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33A7524-7DE1-4E52-854A-0B2986188939}|ReadHub\\ReadHub.csproj|solutionrelative:readhub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33A7524-7DE1-4E52-854A-0B2986188939}|ReadHub\\ReadHub.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub\\readhub.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E33A7524-7DE1-4E52-854A-0B2986188939}|ReadHub\\ReadHub.csproj|solutionrelative:readhub\\readhub.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|C:\\Users\\godin\\gestor-biblioteca\\.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|solutionrelative:.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7912A230-848A-4066-AA60-3FECBF832D66}|ReadHub.Domain\\ReadHub.Domain.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub.domain\\interfaces\\iuserrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,22 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7912A230-848A-4066-AA60-3FECBF832D66}|ReadHub.Domain\\ReadHub.Domain.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub.domain\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7912A230-848A-4066-AA60-3FECBF832D66}|ReadHub.Domain\\ReadHub.Domain.csproj|solutionrelative:readhub.domain\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ED3A303-635D-48ED-BCD0-B5D96907F515}|ReadHub.Application\\ReadHub.Application.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub.application\\services\\userroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ED3A303-635D-48ED-BCD0-B5D96907F515}|ReadHub.Application\\ReadHub.Application.csproj|solutionrelative:readhub.application\\services\\userroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ED3A303-635D-48ED-BCD0-B5D96907F515}|ReadHub.Application\\ReadHub.Application.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ED3A303-635D-48ED-BCD0-B5D96907F515}|ReadHub.Application\\ReadHub.Application.csproj|solutionrelative:readhub.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E33A7524-7DE1-4E52-854A-0B2986188939}|ReadHub\\ReadHub.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E33A7524-7DE1-4E52-854A-0B2986188939}|ReadHub\\ReadHub.csproj|solutionrelative:readhub\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E33A7524-7DE1-4E52-854A-0B2986188939}|ReadHub\\ReadHub.csproj|c:\\users\\godin\\gestor-biblioteca\\readhub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E33A7524-7DE1-4E52-854A-0B2986188939}|ReadHub\\ReadHub.csproj|solutionrelative:readhub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1795,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,7 +106,227 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRoleService.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Services\\UserRoleService.cs",
+              "RelativeDocumentMoniker": "ReadHub.Application\\Services\\UserRoleService.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Services\\UserRoleService.cs",
+              "RelativeToolTip": "ReadHub.Application\\Services\\UserRoleService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T23:25:15.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "ReadHub.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "ReadHub.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T23:07:53.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "ReadHub.Domain\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\Entities\\Role.cs",
+              "RelativeToolTip": "ReadHub.Domain\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T23:53:34.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\Entities\\UserRole.cs",
+              "RelativeDocumentMoniker": "ReadHub.Domain\\Entities\\UserRole.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\Entities\\UserRole.cs",
+              "RelativeToolTip": "ReadHub.Domain\\Entities\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T23:08:02.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Infrastructure\\DataContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ReadHub.Infrastructure\\DataContext\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Infrastructure\\DataContext\\AppDbContext.cs",
+              "RelativeToolTip": "ReadHub.Infrastructure\\DataContext\\AppDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA0wA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T14:46:38.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Infrastructure\\Persistence\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "ReadHub.Infrastructure\\Persistence\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Infrastructure\\Persistence\\RoleRepository.cs",
+              "RelativeToolTip": "ReadHub.Infrastructure\\Persistence\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T23:08:38.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Infrastructure\\Persistence\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ReadHub.Infrastructure\\Persistence\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Infrastructure\\Persistence\\UserRepository.cs",
+              "RelativeToolTip": "ReadHub.Infrastructure\\Persistence\\UserRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T23:08:27.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Infrastructure\\Persistence\\UserRoleRepository.cs",
+              "RelativeDocumentMoniker": "ReadHub.Infrastructure\\Persistence\\UserRoleRepository.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Infrastructure\\Persistence\\UserRoleRepository.cs",
+              "RelativeToolTip": "ReadHub.Infrastructure\\Persistence\\UserRoleRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T23:08:46.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "ReadHub.Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "ReadHub.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T23:00:05.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Dtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "ReadHub.Application\\Dtos\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Dtos\\RegisterDto.cs",
+              "RelativeToolTip": "ReadHub.Application\\Dtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T22:52:37.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "ReadHub.Application\\Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "ReadHub.Application\\Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T22:53:46.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AssignRoleRequest.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Dtos\\AssignRoleRequest.cs",
+              "RelativeDocumentMoniker": "ReadHub.Application\\Dtos\\AssignRoleRequest.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Dtos\\AssignRoleRequest.cs",
+              "RelativeToolTip": "ReadHub.Application\\Dtos\\AssignRoleRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T22:50:36.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\Program.cs",
+              "RelativeDocumentMoniker": "ReadHub\\Program.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\Program.cs",
+              "RelativeToolTip": "ReadHub\\Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T23:37:14.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\appsettings.json",
+              "RelativeDocumentMoniker": "ReadHub\\appsettings.json",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\appsettings.json",
+              "RelativeToolTip": "ReadHub\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-16T23:21:14.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "ReadHub\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "ReadHub\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T22:49:27.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ReadHub\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ReadHub\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowCIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T22:49:36.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReadHub",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\ReadHub.csproj",
+              "RelativeDocumentMoniker": "ReadHub\\ReadHub.csproj",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\ReadHub.csproj",
+              "RelativeToolTip": "ReadHub\\ReadHub.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-17T20:58:49.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": ".gitignore.txt",
               "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\.gitignore.txt",
               "RelativeDocumentMoniker": ".gitignore.txt",
@@ -115,151 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\appsettings.json",
-              "RelativeDocumentMoniker": "ReadHub\\appsettings.json",
-              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\appsettings.json",
-              "RelativeToolTip": "ReadHub\\appsettings.json",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-16T23:21:14.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\Entities\\UserRole.cs",
-              "RelativeDocumentMoniker": "ReadHub.Domain\\Entities\\UserRole.cs",
-              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\Entities\\UserRole.cs",
-              "RelativeToolTip": "ReadHub.Domain\\Entities\\UserRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:08:02.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Infrastructure\\DataContext\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "ReadHub.Infrastructure\\DataContext\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Infrastructure\\DataContext\\AppDbContext.cs",
-              "RelativeToolTip": "ReadHub.Infrastructure\\DataContext\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T14:46:38.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\Entities\\Role.cs",
-              "RelativeDocumentMoniker": "ReadHub.Domain\\Entities\\Role.cs",
-              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\Entities\\Role.cs",
-              "RelativeToolTip": "ReadHub.Domain\\Entities\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:53:34.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\Program.cs",
-              "RelativeDocumentMoniker": "ReadHub\\Program.cs",
-              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\Program.cs",
-              "RelativeToolTip": "ReadHub\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:37:14.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserRoleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Infrastructure\\Persistence\\UserRoleRepository.cs",
-              "RelativeDocumentMoniker": "ReadHub.Infrastructure\\Persistence\\UserRoleRepository.cs",
-              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Infrastructure\\Persistence\\UserRoleRepository.cs",
-              "RelativeToolTip": "ReadHub.Infrastructure\\Persistence\\UserRoleRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:08:46.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AssignRoleRequest.cs",
-              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Dtos\\AssignRoleRequest.cs",
-              "RelativeDocumentMoniker": "ReadHub.Application\\Dtos\\AssignRoleRequest.cs",
-              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Dtos\\AssignRoleRequest.cs",
-              "RelativeToolTip": "ReadHub.Application\\Dtos\\AssignRoleRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T22:50:36.227Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Dtos\\LoginDto.cs",
-              "RelativeDocumentMoniker": "ReadHub.Application\\Dtos\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Dtos\\LoginDto.cs",
-              "RelativeToolTip": "ReadHub.Application\\Dtos\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T22:53:46.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Dtos\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "ReadHub.Application\\Dtos\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Dtos\\RegisterDto.cs",
-              "RelativeToolTip": "ReadHub.Application\\Dtos\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T22:52:37.559Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "ReadHub.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "ReadHub.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAwA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:07:53.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RoleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Infrastructure\\Persistence\\RoleRepository.cs",
-              "RelativeDocumentMoniker": "ReadHub.Infrastructure\\Persistence\\RoleRepository.cs",
-              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Infrastructure\\Persistence\\RoleRepository.cs",
-              "RelativeToolTip": "ReadHub.Infrastructure\\Persistence\\RoleRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:08:38.573Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Infrastructure\\Persistence\\UserRepository.cs",
-              "RelativeDocumentMoniker": "ReadHub.Infrastructure\\Persistence\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Infrastructure\\Persistence\\UserRepository.cs",
-              "RelativeToolTip": "ReadHub.Infrastructure\\Persistence\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:08:27.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "IUserRoleRepository.cs",
               "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\Interfaces\\IUserRoleRepository.cs",
               "RelativeDocumentMoniker": "ReadHub.Domain\\Interfaces\\IUserRoleRepository.cs",
@@ -271,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "ReadHub.Domain\\Interfaces\\IUserRepository.cs",
@@ -283,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "IRoleRepository.cs",
               "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Domain\\Interfaces\\IRoleRepository.cs",
               "RelativeDocumentMoniker": "ReadHub.Domain\\Interfaces\\IRoleRepository.cs",
@@ -292,54 +372,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T23:08:14.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserRoleService.cs",
-              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Services\\UserRoleService.cs",
-              "RelativeDocumentMoniker": "ReadHub.Application\\Services\\UserRoleService.cs",
-              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Services\\UserRoleService.cs",
-              "RelativeToolTip": "ReadHub.Application\\Services\\UserRoleService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAuwDIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:25:15.139Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "ReadHub.Application\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub.Application\\Services\\AuthService.cs",
-              "RelativeToolTip": "ReadHub.Application\\Services\\AuthService.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAuwFoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:00:05.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RolesController.cs",
-              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\Controllers\\RolesController.cs",
-              "RelativeDocumentMoniker": "ReadHub\\Controllers\\RolesController.cs",
-              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\Controllers\\RolesController.cs",
-              "RelativeToolTip": "ReadHub\\Controllers\\RolesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T22:49:27.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "ReadHub\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca\\ReadHub\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "ReadHub\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA8wDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T22:49:36.372Z"
             }
           ]
         },

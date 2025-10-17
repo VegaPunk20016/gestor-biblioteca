@@ -13,7 +13,7 @@ namespace ReadHub.Domain.Entities
         public string PasswordHash { get; set; }
         [Required]
         public string PhoneNumber { get; set; }
-        //public DateTime CreatedAt { get; set; }
+        
 
         public ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
     }

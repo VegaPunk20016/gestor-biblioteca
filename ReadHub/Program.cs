@@ -13,7 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
-// 🔹 Swagger Configuration
+
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
@@ -23,7 +23,7 @@ builder.Services.AddSwaggerGen(c =>
         Description = "API del sistema de autenticación y roles de ReadHub"
     });
 
-    // 🔹 Esto permite enviar JWT desde Swagger
+   
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Description = "Introduce el token JWT con el prefijo 'Bearer'. Ejemplo: Bearer {tu token}",
@@ -50,12 +50,12 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 
-// 🔹 DbContext
+
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
-// 🔹 JWT
+
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -72,7 +72,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-// 🔹 Inyección de dependencias
+
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IRoleRepository, RoleRepository>();
 builder.Services.AddScoped<IUserRoleRepository, UserRoleRepository>();
@@ -81,7 +81,7 @@ builder.Services.AddScoped<UserRoleService>();
 
 var app = builder.Build();
 
-// 🔹 Middleware
+
 app.UseSwagger();
 app.UseSwaggerUI();
 

@@ -32,7 +32,7 @@ namespace ReadHub.Controllers
             }
             catch (Exception ex)
             {
-                // Devuelve error si el email ya está registrado o cualquier otro fallo
+               
                 return BadRequest(new { error = ex.Message });
             }
         }

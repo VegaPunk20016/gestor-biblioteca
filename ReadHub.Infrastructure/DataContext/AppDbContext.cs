@@ -13,7 +13,7 @@ namespace ReadHub.Infrastructure.DataContext
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Configuración de la relación muchos a muchos
+            
             modelBuilder.Entity<UserRole>()
                 .HasKey(ur => new { ur.UserId, ur.RoleId });
 
