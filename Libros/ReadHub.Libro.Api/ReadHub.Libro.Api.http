@@ -1,0 +1,6 @@
+@ReadHub.Libro.Api_HostAddress = http://localhost:5193
+
+GET {{ReadHub.Libro.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
