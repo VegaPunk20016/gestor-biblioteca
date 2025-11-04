@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/1qbZYzE8FA=",
+  "dgSpecHash": "/vXlvQCu28M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\godin\\source\\repos\\ReadHub.Libro.Api\\ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj",
+  "projectFilePath": "C:\\Users\\godin\\gestor-biblioteca\\Libros\\ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

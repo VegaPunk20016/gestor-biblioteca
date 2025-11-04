@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReadHub.Libro.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb3b017f59a6e7d5050f9845f602b4c32357f58c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReadHub.Libro.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReadHub.Libro.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

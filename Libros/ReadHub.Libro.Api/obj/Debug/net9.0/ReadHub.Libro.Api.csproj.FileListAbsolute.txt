@@ -169,3 +169,14 @@ C:\Users\godin\source\repos\ReadHub.Libro.Api\ReadHub.Libro.Api\bin\Debug\net9.0
 C:\Users\godin\source\repos\ReadHub.Libro.Api\ReadHub.Libro.Api\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\godin\source\repos\ReadHub.Libro.Api\ReadHub.Libro.Api\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\godin\source\repos\ReadHub.Libro.Api\ReadHub.Libro.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\godin\gestor-biblioteca\Libros\ReadHub.Libro.Api\obj\Debug\net9.0\ReadHub.Libro.Api.csproj.AssemblyReference.cache
+C:\Users\godin\gestor-biblioteca\Libros\ReadHub.Libro.Api\obj\Debug\net9.0\ReadHub.Libro.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\godin\gestor-biblioteca\Libros\ReadHub.Libro.Api\obj\Debug\net9.0\ReadHub.Libro.Api.AssemblyInfoInputs.cache
+C:\Users\godin\gestor-biblioteca\Libros\ReadHub.Libro.Api\obj\Debug\net9.0\ReadHub.Libro.Api.AssemblyInfo.cs
+C:\Users\godin\gestor-biblioteca\Libros\ReadHub.Libro.Api\obj\Debug\net9.0\ReadHub.Libro.Api.csproj.CoreCompileInputs.cache
+C:\Users\godin\gestor-biblioteca\Libros\ReadHub.Libro.Api\obj\Debug\net9.0\ReadHub.Libro.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\godin\gestor-biblioteca\Libros\ReadHub.Libro.Api\obj\Debug\net9.0\ReadHub.Libro.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\godin\gestor-biblioteca\Libros\ReadHub.Libro.Api\obj\Debug\net9.0\ReadHub.Libro.Api.sourcelink.json
+C:\Users\godin\gestor-biblioteca\Libros\ReadHub.Libro.Api\obj\Debug\net9.0\ReadHub.Libro.Api.dll
+C:\Users\godin\gestor-biblioteca\Libros\ReadHub.Libro.Api\obj\Debug\net9.0\refint\ReadHub.Libro.Api.dll
+C:\Users\godin\gestor-biblioteca\Libros\ReadHub.Libro.Api\obj\Debug\net9.0\ReadHub.Libro.Api.pdb
