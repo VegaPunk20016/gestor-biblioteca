@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ReadHub.Application.Dtos;
 using ReadHub.Application.Services;
 
@@ -29,5 +30,21 @@ namespace ReadHub.Controllers
                 return StatusCode(500, new { error = ex.Message });
             }
         }
+
+        [HttpGet("usuarios")]
+        [Authorize(Roles = "Bibliotecario")]
+        public async Task<IActionResult> GetUsuarios()
+        {
+            try
+            {
+                var result = await _userRoleService.GetUsersByRoleUsuarioAsync();
+                return result.Success ? Ok(result.Data) : BadRequest(result.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { error = ex.Message });
+            }
+        }
+
     }
 }

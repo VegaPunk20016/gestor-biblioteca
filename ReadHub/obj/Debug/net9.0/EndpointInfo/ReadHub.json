@@ -98,6 +98,18 @@
           }
         }
       }
+    },
+    "/api/Roles/usuarios": {
+      "get": {
+        "tags": [
+          "Roles"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {

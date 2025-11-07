@@ -46,5 +46,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Controllers.RolesController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/Roles/usuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

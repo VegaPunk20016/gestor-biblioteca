@@ -57,5 +57,22 @@ namespace ReadHub.Application.Services
 
             return Result.Ok(null, $"Rol cambiado correctamente a '{assignRoleRequestdto.RoleName}'.");
         }
+
+
+        public async Task<Result> GetUsersByRoleUsuarioAsync()
+        {
+            var users = await _userRepository.GetUsersByRoleAsync("Usuario");
+
+            var result = users.Select(u => new
+            {
+                u.Id,
+                u.Username,
+                u.Email,
+                u.PhoneNumber
+            });
+
+            return Result.Ok(result);
+        }
+
     }
 }

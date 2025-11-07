@@ -26,6 +26,17 @@ namespace ReadHub.Infrastructure.Persistence
                 .FirstOrDefaultAsync(u => u.Id == id);
         }
 
+        public async Task<IEnumerable<User>> GetUsersByRoleAsync(string roleName)
+        {
+            return await _context.Users
+                .Include(u => u.UserRoles)
+                .ThenInclude(ur => ur.Role)
+                .Where(u => u.UserRoles.Any(ur => ur.Role.Name == roleName))
+                .ToListAsync();
+        }
+
+
+
         public async Task AddAsync(User user) => await _context.Users.AddAsync(user);
         public async Task SaveChangesAsync() => await _context.SaveChangesAsync();
     }

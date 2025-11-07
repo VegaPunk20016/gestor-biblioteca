@@ -13,18 +13,21 @@ namespace ReadHub.Application.Services
         private readonly IRoleRepository _roleRepository;
         private readonly IUserRoleRepository _userRoleRepository;
         private readonly IJwtTokenGenerator _jwtGenerator;
+        private readonly IEmailService _emailService;
         private readonly PasswordHasher<User> _passwordHasher;
 
         public AuthService(
             IUserRepository userRepository,
             IRoleRepository roleRepository,
             IUserRoleRepository userRoleRepository,
-            IJwtTokenGenerator jwtGenerator)
+            IJwtTokenGenerator jwtGenerator,
+            IEmailService emailService)
         {
             _userRepository = userRepository;
             _roleRepository = roleRepository;
             _userRoleRepository = userRoleRepository;
             _jwtGenerator = jwtGenerator;
+            _emailService = emailService;
             _passwordHasher = new PasswordHasher<User>();
         }
 
@@ -33,6 +36,7 @@ namespace ReadHub.Application.Services
             var existingUser = await _userRepository.GetByEmailAsync(registerdto.Email);
             if (existingUser != null)
                 return Result.Fail("El email ya está registrado.");
+
             var user = new User
             {
                 Id = Guid.NewGuid(),
@@ -43,6 +47,7 @@ namespace ReadHub.Application.Services
 
             user.PasswordHash = _passwordHasher.HashPassword(user, registerdto.Password);
             await _userRepository.AddAsync(user);
+
             var userRoleEntity = await _roleRepository.GetByNameAsync("Usuario");
             if (userRoleEntity == null)
                 return Result.Fail("El rol 'Usuario' no existe. Contacta al administrador del sistema.");
@@ -57,6 +62,14 @@ namespace ReadHub.Application.Services
 
             await _userRepository.SaveChangesAsync();
             await _userRoleRepository.SaveChangesAsync();
+
+            // ✅ Enviar correo de bienvenida
+            await _emailService.SendEmailAsync(
+                user.Email,
+                "Bienvenido a ReadHub",
+                $"<h2>Bienvenido a ReadHub, {user.Email}!</h2>" +
+                "<p>Tu cuenta ha sido creada con éxito. Gracias por registrarte.</p>"
+            );
 
             return Result.Ok(null, "Usuario registrado correctamente");
         }
