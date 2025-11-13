@@ -96,6 +96,22 @@
   },
   {
     "ContainingType": "ReadHub.Libro.Api.Controllers.PrestamosController",
+    "Method": "RenewLoan",
+    "RelativePath": "api/Prestamos/Renovacion",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ReadHub.Libro.Application.Dtos.RenewLoanDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.PrestamosController",
     "Method": "ReturnLoanItem",
     "RelativePath": "api/Prestamos/return-item/{loanItemId}",
     "HttpMethod": "PUT",
@@ -117,22 +133,6 @@
   },
   {
     "ContainingType": "ReadHub.Libro.Api.Controllers.SolicitudPrestamosController",
-    "Method": "CreatePendingLoan",
-    "RelativePath": "api/SolicitudPrestamos",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "ReadHub.Libro.Application.Dtos.CreatePendingLoanDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ReadHub.Libro.Api.Controllers.SolicitudPrestamosController",
     "Method": "GetAll",
     "RelativePath": "api/SolicitudPrestamos",
     "HttpMethod": "GET",
@@ -144,7 +144,7 @@
   {
     "ContainingType": "ReadHub.Libro.Api.Controllers.SolicitudPrestamosController",
     "Method": "Approve",
-    "RelativePath": "api/SolicitudPrestamos/approve",
+    "RelativePath": "api/SolicitudPrestamos/Aprobar",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -160,7 +160,7 @@
   {
     "ContainingType": "ReadHub.Libro.Api.Controllers.SolicitudPrestamosController",
     "Method": "Reject",
-    "RelativePath": "api/SolicitudPrestamos/reject/{id}",
+    "RelativePath": "api/SolicitudPrestamos/Rechazar/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -168,6 +168,22 @@
       {
         "Name": "id",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.SolicitudPrestamosController",
+    "Method": "CreatePendingLoan",
+    "RelativePath": "api/SolicitudPrestamos/usuarios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ReadHub.Libro.Application.Dtos.CreatePendingLoanDto",
         "IsRequired": true
       }
     ],

@@ -203,7 +203,38 @@
         }
       }
     },
-    "/api/SolicitudPrestamos": {
+    "/api/Prestamos/Renovacion": {
+      "put": {
+        "tags": [
+          "Prestamos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RenewLoanDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RenewLoanDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RenewLoanDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SolicitudPrestamos/usuarios": {
       "post": {
         "tags": [
           "SolicitudPrestamos"
@@ -232,19 +263,9 @@
             "description": "OK"
           }
         }
-      },
-      "get": {
-        "tags": [
-          "SolicitudPrestamos"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
       }
     },
-    "/api/SolicitudPrestamos/approve": {
+    "/api/SolicitudPrestamos/Aprobar": {
       "put": {
         "tags": [
           "SolicitudPrestamos"
@@ -275,7 +296,7 @@
         }
       }
     },
-    "/api/SolicitudPrestamos/reject/{id}": {
+    "/api/SolicitudPrestamos/Rechazar/{id}": {
       "put": {
         "tags": [
           "SolicitudPrestamos"
@@ -290,6 +311,18 @@
               "format": "uuid"
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SolicitudPrestamos": {
+      "get": {
+        "tags": [
+          "SolicitudPrestamos"
         ],
         "responses": {
           "200": {
@@ -435,6 +468,22 @@
             "format": "uuid"
           },
           "requestedQuantity": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RenewLoanDto": {
+        "type": "object",
+        "properties": {
+          "loanId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "extraDays": {
+            "maximum": 30,
+            "minimum": 1,
             "type": "integer",
             "format": "int32"
           }

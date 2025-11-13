@@ -36,6 +36,14 @@ namespace ReadHub.Libro.Api.Controllers
             return Ok(result);
         }
 
+        [HttpPut("Renovacion")]
+        [Authorize(Roles = "Usuario,Bibliotecario")]
+        public async Task<IActionResult> RenewLoan([FromBody] RenewLoanDto dto)
+        {
+            await _loanService.RenewLoanAsync(dto.LoanId, dto.ExtraDays);
+            return Ok(new { message = "Préstamo renovado exitosamente." });
+        }
+
 
     }
 }
