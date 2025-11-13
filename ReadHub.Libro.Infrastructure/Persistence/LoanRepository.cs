@@ -15,8 +15,8 @@ namespace ReadHub.Libro.Infrastructure.Persistence
 
         public async Task<Loan?> GetByIdAsync(Guid id) =>
             await _context.Loans
-                .Include(l => l.Items)           // 👈 Se incluyen los items (detalle)
-                .ThenInclude(i => i.Book)       // 👈 Y el libro dentro del item
+                .Include(l => l.Items)        
+                .ThenInclude(i => i.Book)     
                 .FirstOrDefaultAsync(l => l.Id == id);
 
         public async Task<IEnumerable<Loan>> GetActiveLoansAsync() =>

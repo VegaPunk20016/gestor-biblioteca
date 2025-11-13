@@ -32,11 +32,11 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-// DbContext
+
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// JWT
+
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -52,7 +52,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             IssuerSigningKey = new SymmetricSecurityKey(key)
         };
 
-        // Este evento se dispara cuando el usuario no tiene permisos
         options.Events = new JwtBearerEvents
         {
             OnForbidden = context =>
@@ -63,7 +62,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             },
             OnChallenge = context =>
             {
-                // Cuando el token es inválido o falta
                 context.Response.ContentType = "application/json";
                 context.Response.StatusCode = 401;
                 return context.Response.WriteAsync("{\"error\":\"Token inválido o ausente\"}");
@@ -72,11 +70,12 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     });
 
 
-// DI
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<BookService>();
 builder.Services.AddScoped<ILoanRepository, LoanRepository>();
 builder.Services.AddScoped<LoanService>();
+builder.Services.AddScoped<IPendingLoanRepository, PendingLoanRepository>();
+builder.Services.AddScoped<PendingLoanService>(); 
 
 
 var app = builder.Build();

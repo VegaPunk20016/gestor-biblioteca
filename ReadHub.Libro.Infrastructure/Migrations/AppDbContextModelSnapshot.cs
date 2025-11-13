@@ -108,6 +108,44 @@ namespace ReadHub.Libro.Infrastructure.Migrations
                     b.ToTable("Loans");
                 });
 
+            modelBuilder.Entity("ReadHub.Libro.Domain.Entities.PendingLoanBook", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("ApprovedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("ApprovedQuantity")
+                        .HasColumnType("int");
+
+                    b.Property<Guid>("BookId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("IsApproved")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsRejected")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("LoanDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("RequestedQuantity")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("ReturnDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PendingLoanBooks");
+                });
+
             modelBuilder.Entity("LoanItem", b =>
                 {
                     b.HasOne("ReadHub.Libro.Domain.Entities.Book", "Book")

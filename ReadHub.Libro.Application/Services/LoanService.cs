@@ -55,16 +55,13 @@ namespace ReadHub.Libro.Application.Services
 
             if (quantityToReturn <= 0) return null;
 
-            // Devuelve la menor cantidad entre lo que queda y lo solicitado
             var quantityReturned = Math.Min(loanItem.Quantity, quantityToReturn);
 
-            // Actualiza cantidad pendiente
             loanItem.Quantity -= quantityReturned;
 
-            // Marca la hora de devolución parcial
             loanItem.ReturnedAt = DateTime.UtcNow;
 
-            // Devuelve stock al libro
+            
             var book = await _bookRepository.GetByIdAsync(loanItem.BookId);
             if (book != null)
             {
@@ -74,7 +71,7 @@ namespace ReadHub.Libro.Application.Services
 
             await _loanRepository.SaveChangesAsync();
 
-            return loanItem; // Puedes retornar la info actualizada
+            return loanItem; 
         }
 
 

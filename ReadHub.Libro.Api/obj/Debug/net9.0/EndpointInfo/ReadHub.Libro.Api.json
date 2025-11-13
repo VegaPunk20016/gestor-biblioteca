@@ -5,10 +5,10 @@
     "version": "v1"
   },
   "paths": {
-    "/api/Books": {
+    "/api/Libros": {
       "get": {
         "tags": [
-          "Books"
+          "Libros"
         ],
         "responses": {
           "200": {
@@ -18,7 +18,7 @@
       },
       "post": {
         "tags": [
-          "Books"
+          "Libros"
         ],
         "requestBody": {
           "content": {
@@ -46,10 +46,10 @@
         }
       }
     },
-    "/api/Books/{id}": {
+    "/api/Libros/{id}": {
       "get": {
         "tags": [
-          "Books"
+          "Libros"
         ],
         "parameters": [
           {
@@ -70,7 +70,7 @@
       },
       "put": {
         "tags": [
-          "Books"
+          "Libros"
         ],
         "parameters": [
           {
@@ -110,7 +110,7 @@
       },
       "delete": {
         "tags": [
-          "Books"
+          "Libros"
         ],
         "parameters": [
           {
@@ -130,10 +130,10 @@
         }
       }
     },
-    "/api/Loans": {
+    "/api/Prestamos": {
       "post": {
         "tags": [
-          "Loans"
+          "Prestamos"
         ],
         "requestBody": {
           "content": {
@@ -161,10 +161,10 @@
         }
       }
     },
-    "/api/Loans/return-item/{loanItemId}": {
+    "/api/Prestamos/return-item/{loanItemId}": {
       "put": {
         "tags": [
-          "Loans"
+          "Prestamos"
         ],
         "parameters": [
           {
@@ -202,10 +202,123 @@
           }
         }
       }
+    },
+    "/api/SolicitudPrestamos": {
+      "post": {
+        "tags": [
+          "SolicitudPrestamos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePendingLoanDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePendingLoanDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePendingLoanDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "SolicitudPrestamos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SolicitudPrestamos/approve": {
+      "put": {
+        "tags": [
+          "SolicitudPrestamos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApprovePendingLoanDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApprovePendingLoanDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApprovePendingLoanDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SolicitudPrestamos/reject/{id}": {
+      "put": {
+        "tags": [
+          "SolicitudPrestamos"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
+      "ApprovePendingLoanDto": {
+        "required": [
+          "approvedQuantity",
+          "pendingLoanId"
+        ],
+        "type": "object",
+        "properties": {
+          "pendingLoanId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "approvedQuantity": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "BookDto": {
         "required": [
           "author",
@@ -271,6 +384,31 @@
         },
         "additionalProperties": false
       },
+      "CreatePendingLoanDto": {
+        "required": [
+          "books",
+          "userId"
+        ],
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "returnDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "books": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PendingLoanBookItemDto"
+            }
+          }
+        },
+        "additionalProperties": false
+      },
       "LoanBookItemDto": {
         "type": "object",
         "properties": {
@@ -279,6 +417,24 @@
             "format": "uuid"
           },
           "quantity": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PendingLoanBookItemDto": {
+        "required": [
+          "bookId",
+          "requestedQuantity"
+        ],
+        "type": "object",
+        "properties": {
+          "bookId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "requestedQuantity": {
             "type": "integer",
             "format": "int32"
           }

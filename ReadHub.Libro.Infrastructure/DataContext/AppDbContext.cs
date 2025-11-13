@@ -9,10 +9,10 @@ namespace ReadHub.Libro.Infrastructure.DataContext
 
         public DbSet<Book> Books => Set<Book>();
 
-        // ⬇️ AGREGA ESTE
         public DbSet<Loan> Loans => Set<Loan>();
 
         public DbSet<LoanItem> LoanItems => Set<LoanItem>();
+        public DbSet<PendingLoanBook> PendingLoanBooks { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
