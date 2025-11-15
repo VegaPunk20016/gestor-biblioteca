@@ -130,6 +130,87 @@
         }
       }
     },
+    "/api/Multas": {
+      "get": {
+        "tags": [
+          "Multas"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Multas/usuario/{userId}": {
+      "get": {
+        "tags": [
+          "Multas"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Multas/loan/{loanId}": {
+      "get": {
+        "tags": [
+          "Multas"
+        ],
+        "parameters": [
+          {
+            "name": "loanId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Multas/pagar/{fineId}": {
+      "put": {
+        "tags": [
+          "Multas"
+        ],
+        "parameters": [
+          {
+            "name": "fineId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Prestamos": {
       "post": {
         "tags": [

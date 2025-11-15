@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ReadHub.Libro.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class AddPendingLoanBook : Migration
+    public partial class AddLoanDbSet : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -53,7 +53,10 @@ namespace ReadHub.Libro.Infrastructure.Migrations
                     RequestedQuantity = table.Column<int>(type: "int", nullable: false),
                     ApprovedQuantity = table.Column<int>(type: "int", nullable: true),
                     IsApproved = table.Column<bool>(type: "bit", nullable: false),
-                    IsRejected = table.Column<bool>(type: "bit", nullable: false)
+                    IsRejected = table.Column<bool>(type: "bit", nullable: false),
+                    LoanDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    ReturnDate = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    ApprovedDate = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
                 constraints: table =>
                 {

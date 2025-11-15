@@ -75,7 +75,11 @@ builder.Services.AddScoped<BookService>();
 builder.Services.AddScoped<ILoanRepository, LoanRepository>();
 builder.Services.AddScoped<LoanService>();
 builder.Services.AddScoped<IPendingLoanRepository, PendingLoanRepository>();
-builder.Services.AddScoped<PendingLoanService>(); 
+builder.Services.AddScoped<PendingLoanService>();
+builder.Services.AddScoped<EmailService>();
+builder.Services.AddHostedService<LoanExpirationChecker>();
+builder.Services.AddScoped<IFineRepository, FineRepository>();
+
 
 
 var app = builder.Build();

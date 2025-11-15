@@ -15,6 +15,8 @@ namespace ReadHub.Libro.Application.Services
             _loanRepository = loanRepository;
         }
 
+
+        //Prestar un libro 
         public async Task<Loan> CreateLoanAsync(CreateLoanDto dto)
         {
             var loan = new Loan
@@ -48,6 +50,7 @@ namespace ReadHub.Libro.Application.Services
         }
 
 
+        //Devolver un libro 
         public async Task<LoanItem?> ReturnLoanItemAsync(Guid loanItemId, int quantityToReturn)
         {
             var loanItem = await _loanRepository.GetLoanItemByIdAsync(loanItemId);
@@ -74,18 +77,17 @@ namespace ReadHub.Libro.Application.Services
             return loanItem; 
         }
 
-        // 🔁 Renovar préstamo (extiende la fecha de devolución)
+        //Renovar préstamo (extiende la fecha de devolución)
         public async Task<bool> RenewLoanAsync(Guid loanId, int extraDays)
         {
             var loan = await _loanRepository.GetByIdAsync(loanId);
             if (loan == null)
                 throw new Exception("El préstamo no existe.");
 
-            // Verifica si ya venció
             if (loan.ReturnDate < DateTime.UtcNow)
                 throw new Exception("No se puede renovar un préstamo vencido.");
 
-            // Extiende la fecha de devolución
+            
             loan.ReturnDate = loan.ReturnDate.AddDays(extraDays);
 
             await _loanRepository.SaveChangesAsync();

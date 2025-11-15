@@ -79,6 +79,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.MultasController",
+    "Method": "GetAll",
+    "RelativePath": "api/Multas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.MultasController",
+    "Method": "GetByLoan",
+    "RelativePath": "api/Multas/loan/{loanId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loanId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.MultasController",
+    "Method": "PayFine",
+    "RelativePath": "api/Multas/pagar/{fineId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fineId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.MultasController",
+    "Method": "GetByUser",
+    "RelativePath": "api/Multas/usuario/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ReadHub.Libro.Api.Controllers.PrestamosController",
     "Method": "CreateLoan",
     "RelativePath": "api/Prestamos",

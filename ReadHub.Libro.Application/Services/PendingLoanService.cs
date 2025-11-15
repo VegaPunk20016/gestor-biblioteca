@@ -17,17 +17,14 @@ namespace ReadHub.Libro.Application.Services
             _loanRepo = loanRepo;
         }
 
-        public async Task<IEnumerable<PendingLoanBook>> GetAllAsync()
-        {
-            return await _pendingLoanRepo.GetAllAsync();
-        }
 
+        //Usuario crea la solicitud de prestamo de un libro
         public async Task CreatePendingLoanAsync(CreatePendingLoanDto dto)
         {
             foreach (var book in dto.Books)
             {
-                var loanDate = DateTime.UtcNow; 
-                var returnDate = dto.ReturnDate ?? loanDate.AddDays(7); 
+                var loanDate = DateTime.UtcNow;
+                var returnDate = dto.ReturnDate ?? loanDate.AddDays(7);
 
                 var pendingLoan = new PendingLoanBook
                 {
@@ -45,6 +42,8 @@ namespace ReadHub.Libro.Application.Services
             await _pendingLoanRepo.SaveChangesAsync();
         }
 
+
+        // Bibliotecario aprueba la solicitud del prestamo del usuario 
         public async Task ApprovePendingLoanAsync(Guid id, int approvedQuantity)
         {
             var pending = await _pendingLoanRepo.GetByIdAsync(id);
@@ -86,7 +85,7 @@ namespace ReadHub.Libro.Application.Services
         }
             };
 
-            
+
             book.Stock -= approvedQuantity;
             await _bookRepo.UpdateAsync(book);
 
@@ -96,6 +95,7 @@ namespace ReadHub.Libro.Application.Services
         }
 
 
+        // Bibliotecario rechaza la solicitd del prestamo 
         public async Task RejectPendingLoanAsync(Guid id)
         {
             var pending = await _pendingLoanRepo.GetByIdAsync(id);
@@ -115,5 +115,11 @@ namespace ReadHub.Libro.Application.Services
             await _pendingLoanRepo.SaveChangesAsync();
         }
 
+
+        // Ver todas las solicitudes
+        public async Task<IEnumerable<PendingLoanBook>> GetAllAsync()
+        {
+            return await _pendingLoanRepo.GetAllAsync();
+        }
     }
 }

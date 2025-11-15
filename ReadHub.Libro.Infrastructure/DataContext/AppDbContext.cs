@@ -13,6 +13,7 @@ namespace ReadHub.Libro.Infrastructure.DataContext
 
         public DbSet<LoanItem> LoanItems => Set<LoanItem>();
         public DbSet<PendingLoanBook> PendingLoanBooks { get; set; }
+        public DbSet<Fine> Fines { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

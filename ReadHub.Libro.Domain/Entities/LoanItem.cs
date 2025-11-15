@@ -14,8 +14,9 @@ public class LoanItem
 
     [Required]
     public Guid BookId { get; set; }
-    public Book Book { get; set; }
 
+    public Book Book { get; set; }
+    [Required]
     public int Quantity { get; set; } = 1;
 
     public DateTime? ReturnedAt { get; set; }

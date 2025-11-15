@@ -5,7 +5,7 @@
 namespace ReadHub.Libro.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class AddLoanDb : Migration
+    public partial class AddLoanDb_v2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

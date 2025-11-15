@@ -340,4 +340,7 @@ C:\Users\godin\source\repos\ReadHub.Libro.Api\ReadHub.Libro.Api\obj\Debug\net9.0
 C:\Users\godin\source\repos\ReadHub.Libro.Api\ReadHub.Libro.Api\obj\Debug\net9.0\ReadHub.Libro.Api.pdb
 C:\Users\godin\source\repos\ReadHub.Libro.Api\ReadHub.Libro.Api\obj\Debug\net9.0\ReadHub.Libro.Api.genruntimeconfig.cache
 C:\Users\godin\source\repos\ReadHub.Libro.Api\ReadHub.Libro.Api\obj\Debug\net9.0\ref\ReadHub.Libro.Api.dll
+C:\Users\godin\source\repos\ReadHub.Libro.Api\ReadHub.Libro.Api\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\godin\source\repos\ReadHub.Libro.Api\ReadHub.Libro.Api\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\godin\source\repos\ReadHub.Libro.Api\ReadHub.Libro.Api\bin\Debug\net9.0\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Users\godin\source\repos\ReadHub.Libro.Api\ReadHub.Libro.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

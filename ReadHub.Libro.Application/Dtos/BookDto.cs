@@ -2,6 +2,7 @@
 
 namespace ReadHub.Libro.Application.Dtos
 {
+    
     public class BookDto
     {
         [Required]

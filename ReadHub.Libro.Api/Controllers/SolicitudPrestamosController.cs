@@ -16,7 +16,8 @@ namespace ReadHub.Libro.Api.Controllers
             _service = service;
         }
 
-        // Usuario crea solicitud
+
+        // Usuario crea una solicitud de prestamo de un libro 
         [HttpPost("usuarios")]
         [Authorize(Roles = "Usuario")]
         public async Task<IActionResult> CreatePendingLoan([FromBody] CreatePendingLoanDto dto)
@@ -25,7 +26,7 @@ namespace ReadHub.Libro.Api.Controllers
             return Ok(new { message = "Solicitud enviada correctamente" });
         }
 
-        // Bibliotecario aprueba
+        // Bibliotecario aprueba la solicitud de prestamo del usuario 
         [HttpPut("Aprobar")]
         [Authorize(Roles = "Bibliotecario")]
         public async Task<IActionResult> Approve([FromBody] ApprovePendingLoanDto dto)
@@ -51,7 +52,7 @@ namespace ReadHub.Libro.Api.Controllers
 
 
 
-        // Bibliotecario rechaza
+        // Bibliotecario rechaza la solicitd del prestamo 
         [HttpPut("Rechazar/{id}")]
         [Authorize(Roles = "Bibliotecario")]
         public async Task<IActionResult> Reject(Guid id)

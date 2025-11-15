@@ -12,14 +12,17 @@ namespace ReadHub.Libro.Application.Services
             _bookRepository = bookRepository;
         }
 
+
+        //Consultar libros
         public async Task<IEnumerable<Book>> GetAllBooksAsync() => await _bookRepository.GetAllAsync();
 
+        //Consultar libros por id
         public async Task<Book?> GetBookByIdAsync(Guid id) => await _bookRepository.GetByIdAsync(id);
 
         // Crear libro
         public async Task<Book> CreateBookAsync(BookDto bookDto)
         {
-            // Validar si el ISBN ya existe
+            
             var existingBook = await _bookRepository.GetByISBNAsync(bookDto.ISBN);
             if (existingBook != null)
                 throw new Exception("El ISBN ya está registrado.");

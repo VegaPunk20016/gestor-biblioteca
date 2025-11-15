@@ -88,14 +88,54 @@ namespace ReadHub.Libro.Infrastructure.Migrations
                     b.ToTable("Books");
                 });
 
+            modelBuilder.Entity("ReadHub.Libro.Domain.Entities.Fine", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<decimal>("Amount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("DaysLate")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsPaid")
+                        .HasColumnType("bit");
+
+                    b.Property<Guid>("LoanId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("WeekNumber")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("LoanId");
+
+                    b.ToTable("Fines");
+                });
+
             modelBuilder.Entity("ReadHub.Libro.Domain.Entities.Loan", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<bool>("ExpiredEmailSent")
+                        .HasColumnType("bit");
+
                     b.Property<DateTime>("LoanDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<bool>("ReminderEmailSent")
+                        .HasColumnType("bit");
 
                     b.Property<DateTime>("ReturnDate")
                         .HasColumnType("datetime2");
@@ -161,6 +201,17 @@ namespace ReadHub.Libro.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("Book");
+
+                    b.Navigation("Loan");
+                });
+
+            modelBuilder.Entity("ReadHub.Libro.Domain.Entities.Fine", b =>
+                {
+                    b.HasOne("ReadHub.Libro.Domain.Entities.Loan", "Loan")
+                        .WithMany()
+                        .HasForeignKey("LoanId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Loan");
                 });
