@@ -2,7 +2,6 @@
   "openapi": "3.0.4",
   "info": {
     "title": "ReadHub API",
-    "description": "API del sistema de autenticación y roles de ReadHub",
     "version": "v1"
   },
   "paths": {
@@ -99,10 +98,33 @@
         }
       }
     },
-    "/api/Roles/usuarios": {
+    "/api/Users/{id}": {
       "get": {
         "tags": [
-          "Roles"
+          "Users"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Users/usuarios": {
+      "get": {
+        "tags": [
+          "Users"
         ],
         "responses": {
           "200": {
@@ -176,7 +198,7 @@
     "securitySchemes": {
       "Bearer": {
         "type": "apiKey",
-        "description": "Introduce el token JWT con el prefijo 'Bearer'. Ejemplo: Bearer {tu token}",
+        "description": "Bearer {token}",
         "name": "Authorization",
         "in": "header"
       }

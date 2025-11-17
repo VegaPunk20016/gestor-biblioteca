@@ -65,11 +65,49 @@ namespace ReadHub.Application.Services
 
             // ✅ Enviar correo de bienvenida
             await _emailService.SendEmailAsync(
-                user.Email,
-                "Bienvenido a ReadHub",
-                $"<h2>Bienvenido a ReadHub, {user.Email}!</h2>" +
-                "<p>Tu cuenta ha sido creada con éxito. Gracias por registrarte.</p>"
-            );
+    user.Email,
+    "Bienvenido a ReadHub",
+    $@"
+<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f4f4f4; padding:25px;'>
+    <tr>
+        <td align='center'>
+            <table width='600' cellpadding='0' cellspacing='0' style='background:#ffffff; border-radius:10px; overflow:hidden;'>
+
+                <!-- Header -->
+                <tr>
+                    <td align='center' style='background:#6e3c11; padding:20px;'>
+                        <h2 style='color:white; margin:0;'>Bienvenido a ReadHub</h2>
+                    </td>
+                </tr>
+
+                <!-- Mensaje principal -->
+                <tr>
+                    <td style='padding:25px 30px; color:#444; font-size:16px; line-height:1.6;'>
+                        <p>Hola <b>{user.Username}</b>,</p>
+                        <p>Tu cuenta ha sido creada exitosamente en <b>ReadHub</b>.</p>
+
+                        <p>Puedes iniciar sesión con tu correo:</p>
+
+                        <p style='font-size:18px; font-weight:bold; color:#1a73e8;'>{user.Email}</p>
+
+                        <p>Si necesitas ayuda, estamos aquí para apoyarte.</p>
+                    </td>
+                </tr>
+
+                <!-- Footer -->
+                <tr>
+                    <td align='center' style='background:#6e3c11; color:white; padding:15px; font-size:14px;'>
+                        © {DateTime.UtcNow.Year} ReadHub
+                    </td>
+                </tr>
+
+            </table>
+        </td>
+    </tr>
+</table>
+"
+);
+
 
             return Result.Ok(null, "Usuario registrado correctamente");
         }

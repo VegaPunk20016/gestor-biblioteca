@@ -31,20 +31,6 @@ namespace ReadHub.Controllers
             }
         }
 
-        [HttpGet("usuarios")]
-        [Authorize(Roles = "Bibliotecario")]
-        public async Task<IActionResult> GetUsuarios()
-        {
-            try
-            {
-                var result = await _userRoleService.GetUsersByRoleUsuarioAsync();
-                return result.Success ? Ok(result.Data) : BadRequest(result.Message);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { error = ex.Message });
-            }
-        }
 
     }
 }

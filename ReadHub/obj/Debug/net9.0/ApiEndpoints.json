@@ -48,9 +48,25 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ReadHub.Controllers.RolesController",
+    "ContainingType": "ReadHub.Controllers.UsersController",
+    "Method": "GetById",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Controllers.UsersController",
     "Method": "GetUsuarios",
-    "RelativePath": "api/Roles/usuarios",
+    "RelativePath": "api/Users/usuarios",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
