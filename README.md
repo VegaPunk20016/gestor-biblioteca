@@ -1,3 +1,3 @@
 # gestor-biblioteca
-Repositorio para el proyecto de gestor de biblioteca sprit6
+Repositorio para el proyecto de gestor de biblioteca sprint6
 
