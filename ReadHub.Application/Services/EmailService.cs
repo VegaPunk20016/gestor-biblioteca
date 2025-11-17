@@ -14,6 +14,7 @@ namespace ReadHub.Application.Services
             _config = config;
         }
 
+        //Enviar email
         public async Task SendEmailAsync(string toEmail, string subject, string body)
         {
             var smtpServer = _config["EmailSettings:SmtpServer"];

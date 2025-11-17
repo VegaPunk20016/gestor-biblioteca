@@ -24,6 +24,7 @@ namespace ReadHub.Application.Services
             _passwordHasher = new PasswordHasher<User>();
         }
 
+        //AIGNAR ROL A USUARIO
         public async Task<Result> AssignRoleAsync(AssignRoleRequest assignRoleRequestdto)
         {
             var user = await _userRepository.GetByEmailAsync(assignRoleRequestdto.Email);
@@ -39,13 +40,11 @@ namespace ReadHub.Application.Services
             if (role == null)
                 return Result.Fail($"El rol '{assignRoleRequestdto.RoleName}' no existe.");
 
-            // 🔥 ELIMINAR ROLES ANTERIORES
             if (user.UserRoles.Any())
             {
                 await _userRoleRepository.RemoveRangeAsync(user.UserRoles);
             }
 
-            // ✅ ASIGNAR NUEVO ROL
             var userRole = new UserRole
             {
                 UserId = user.Id,
@@ -59,6 +58,7 @@ namespace ReadHub.Application.Services
         }
 
 
+        //OBTENER USUARIOS POR ROL "USUARIO"
         public async Task<Result> GetUsersByRoleUsuarioAsync()
         {
             var users = await _userRepository.GetUsersByRoleAsync("Usuario");

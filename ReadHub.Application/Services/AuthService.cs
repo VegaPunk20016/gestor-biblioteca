@@ -31,6 +31,8 @@ namespace ReadHub.Application.Services
             _passwordHasher = new PasswordHasher<User>();
         }
 
+
+        //Registrar usuario
         public async Task<Result> RegisterAsync(RegisterDto registerdto)
         {
             var existingUser = await _userRepository.GetByEmailAsync(registerdto.Email);
@@ -63,7 +65,7 @@ namespace ReadHub.Application.Services
             await _userRepository.SaveChangesAsync();
             await _userRoleRepository.SaveChangesAsync();
 
-            // ✅ Enviar correo de bienvenida
+            //  Enviar correo de bienvenida
             await _emailService.SendEmailAsync(
     user.Email,
     "Bienvenido a ReadHub",
@@ -112,6 +114,8 @@ namespace ReadHub.Application.Services
             return Result.Ok(null, "Usuario registrado correctamente");
         }
 
+
+        //Iniciar sesión
         public async Task<Result> LoginAsync(LoginDto logindto)
         {
             var user = await _userRepository.GetByEmailAsync(logindto.Email);
