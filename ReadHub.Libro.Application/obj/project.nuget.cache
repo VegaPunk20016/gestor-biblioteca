@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "wL6Qluy4asE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\godin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.10\\microsoft.extensions.configuration.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\godin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.1\\microsoft.extensions.dependencyinjection.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\godin\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\9.0.1\\microsoft.extensions.diagnostics.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\godin\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.1\\microsoft.extensions.fileproviders.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\godin\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\9.0.1\\microsoft.extensions.hosting.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\godin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.1\\microsoft.extensions.logging.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\godin\\.nuget\\packages\\microsoft.extensions.options\\9.0.1\\microsoft.extensions.options.9.0.1.nupkg.sha512",
+    "C:\\Users\\godin\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.10\\microsoft.extensions.primitives.9.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

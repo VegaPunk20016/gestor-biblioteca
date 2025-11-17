@@ -1,0 +1,344 @@
+[
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.LibrosController",
+    "Method": "GetAll",
+    "RelativePath": "api/Libros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.LibrosController",
+    "Method": "Create",
+    "RelativePath": "api/Libros",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookDto",
+        "Type": "ReadHub.Libro.Application.Dtos.BookDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.LibrosController",
+    "Method": "GetById",
+    "RelativePath": "api/Libros/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.LibrosController",
+    "Method": "Update",
+    "RelativePath": "api/Libros/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "bookDto",
+        "Type": "ReadHub.Libro.Application.Dtos.BookDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.LibrosController",
+    "Method": "Delete",
+    "RelativePath": "api/Libros/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.LibrosController",
+    "Method": "GetAvailableBooks",
+    "RelativePath": "api/Libros/LibrosDisponibles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.MultasController",
+    "Method": "GetAll",
+    "RelativePath": "api/Multas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.MultasController",
+    "Method": "GetByLoan",
+    "RelativePath": "api/Multas/loan/{loanId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loanId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.MultasController",
+    "Method": "PayFine",
+    "RelativePath": "api/Multas/pagar/{fineId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fineId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.MultasController",
+    "Method": "GetByUser",
+    "RelativePath": "api/Multas/usuario/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.PrestamosController",
+    "Method": "GetOverdueLoans",
+    "RelativePath": "api/Prestamos/Prestamosvencidos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.PrestamosController",
+    "Method": "CreateLoan",
+    "RelativePath": "api/Prestamos/PrestarBibliotecario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ReadHub.Libro.Application.Dtos.CreateLoanDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.PrestamosController",
+    "Method": "RenewLoan",
+    "RelativePath": "api/Prestamos/RenovacionBibliotecario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ReadHub.Libro.Application.Dtos.RenewLoanDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.PrestamosController",
+    "Method": "ReturnLoanItem",
+    "RelativePath": "api/Prestamos/return-item/{loanItemId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loanItemId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ReadHub.Libro.Application.Dtos.ReturnLoanItemRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.PrestamosController",
+    "Method": "GetUserOverdueLoans",
+    "RelativePath": "api/Prestamos/Usuario/{userId}/Vencidos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.RenovacionesController",
+    "Method": "Approve",
+    "RelativePath": "api/Renovaciones/aprobar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.RenovacionesController",
+    "Method": "Reject",
+    "RelativePath": "api/Renovaciones/rechazar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.RenovacionesController",
+    "Method": "GetPending",
+    "RelativePath": "api/Renovaciones/RenovPendientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.RenovacionesController",
+    "Method": "Create",
+    "RelativePath": "api/Renovaciones/solicitar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ReadHub.Libro.Application.Dtos.CreateRenewalRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.SolicitudPrestamosController",
+    "Method": "CreatePendingLoan",
+    "RelativePath": "api/SolicitudPrestamos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ReadHub.Libro.Application.Dtos.CreatePendingLoanDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.SolicitudPrestamosController",
+    "Method": "GetAll",
+    "RelativePath": "api/SolicitudPrestamos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.SolicitudPrestamosController",
+    "Method": "Approve",
+    "RelativePath": "api/SolicitudPrestamos/Aprobar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ReadHub.Libro.Application.Dtos.ApprovePendingLoanDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadHub.Libro.Api.Controllers.SolicitudPrestamosController",
+    "Method": "Reject",
+    "RelativePath": "api/SolicitudPrestamos/Rechazar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

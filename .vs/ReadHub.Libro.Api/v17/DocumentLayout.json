@@ -3,16 +3,144 @@
   "WorkspaceRootPath": "C:\\Users\\godin\\gestor-biblioteca2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E25722B-9BB7-4CFC-917F-057C471CAC8B}|ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E25722B-9BB7-4CFC-917F-057C471CAC8B}|ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj|solutionrelative:readhub.libro.domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FB0B8F9-7BD1-430B-8AF0-2AA276752868}|ReadHub.Libro.Infrastructure\\ReadHub.Libro.Infrastructure.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.infrastructure\\persistence\\pendingloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB0B8F9-7BD1-430B-8AF0-2AA276752868}|ReadHub.Libro.Infrastructure\\ReadHub.Libro.Infrastructure.csproj|solutionrelative:readhub.libro.infrastructure\\persistence\\pendingloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB0B8F9-7BD1-430B-8AF0-2AA276752868}|ReadHub.Libro.Infrastructure\\ReadHub.Libro.Infrastructure.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.infrastructure\\persistence\\loanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB0B8F9-7BD1-430B-8AF0-2AA276752868}|ReadHub.Libro.Infrastructure\\ReadHub.Libro.Infrastructure.csproj|solutionrelative:readhub.libro.infrastructure\\persistence\\loanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB0B8F9-7BD1-430B-8AF0-2AA276752868}|ReadHub.Libro.Infrastructure\\ReadHub.Libro.Infrastructure.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.infrastructure\\persistence\\loanrenewalrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB0B8F9-7BD1-430B-8AF0-2AA276752868}|ReadHub.Libro.Infrastructure\\ReadHub.Libro.Infrastructure.csproj|solutionrelative:readhub.libro.infrastructure\\persistence\\loanrenewalrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB0B8F9-7BD1-430B-8AF0-2AA276752868}|ReadHub.Libro.Infrastructure\\ReadHub.Libro.Infrastructure.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.infrastructure\\persistence\\finerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB0B8F9-7BD1-430B-8AF0-2AA276752868}|ReadHub.Libro.Infrastructure\\ReadHub.Libro.Infrastructure.csproj|solutionrelative:readhub.libro.infrastructure\\persistence\\finerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB0B8F9-7BD1-430B-8AF0-2AA276752868}|ReadHub.Libro.Infrastructure\\ReadHub.Libro.Infrastructure.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.infrastructure\\datacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB0B8F9-7BD1-430B-8AF0-2AA276752868}|ReadHub.Libro.Infrastructure\\ReadHub.Libro.Infrastructure.csproj|solutionrelative:readhub.libro.infrastructure\\datacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E25722B-9BB7-4CFC-917F-057C471CAC8B}|ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.domain\\entities\\loanrenewalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E25722B-9BB7-4CFC-917F-057C471CAC8B}|ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj|solutionrelative:readhub.libro.domain\\entities\\loanrenewalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E25722B-9BB7-4CFC-917F-057C471CAC8B}|ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.domain\\entities\\pendingloanbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E25722B-9BB7-4CFC-917F-057C471CAC8B}|ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj|solutionrelative:readhub.libro.domain\\entities\\pendingloanbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E25722B-9BB7-4CFC-917F-057C471CAC8B}|ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.domain\\entities\\loanitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E25722B-9BB7-4CFC-917F-057C471CAC8B}|ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj|solutionrelative:readhub.libro.domain\\entities\\loanitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E25722B-9BB7-4CFC-917F-057C471CAC8B}|ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.domain\\entities\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E25722B-9BB7-4CFC-917F-057C471CAC8B}|ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj|solutionrelative:readhub.libro.domain\\entities\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C5DC671-E23C-465B-AC79-F124149AB6A4}|ReadHub.Libro.Api\\ReadHub.Libro.Api.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.api\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C5DC671-E23C-465B-AC79-F124149AB6A4}|ReadHub.Libro.Api\\ReadHub.Libro.Api.csproj|solutionrelative:readhub.libro.api\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E25722B-9BB7-4CFC-917F-057C471CAC8B}|ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.domain\\entities\\fine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E25722B-9BB7-4CFC-917F-057C471CAC8B}|ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj|solutionrelative:readhub.libro.domain\\entities\\fine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E25722B-9BB7-4CFC-917F-057C471CAC8B}|ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E25722B-9BB7-4CFC-917F-057C471CAC8B}|ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj|solutionrelative:readhub.libro.domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E25722B-9BB7-4CFC-917F-057C471CAC8B}|ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.domain\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E25722B-9BB7-4CFC-917F-057C471CAC8B}|ReadHub.Libro.Domain\\ReadHub.Libro.Domain.csproj|solutionrelative:readhub.libro.domain\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|solutionrelative:readhub.libro.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.application\\services\\pendingloanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|solutionrelative:readhub.libro.application\\services\\pendingloanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.application\\services\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|solutionrelative:readhub.libro.application\\services\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.application\\services\\loanrenewalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|solutionrelative:readhub.libro.application\\services\\loanrenewalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.application\\services\\loanexpirationchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|solutionrelative:readhub.libro.application\\services\\loanexpirationchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|solutionrelative:readhub.libro.application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.application\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|solutionrelative:readhub.libro.application\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|solutionrelative:readhub.libro.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.application\\interfaces\\iloanrenewalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|solutionrelative:readhub.libro.application\\interfaces\\iloanrenewalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|solutionrelative:readhub.libro.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.application\\dtos\\updatebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|solutionrelative:readhub.libro.application\\dtos\\updatebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.application\\dtos\\renewloandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|solutionrelative:readhub.libro.application\\dtos\\renewloandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.application\\dtos\\creatependingloandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|solutionrelative:readhub.libro.application\\dtos\\creatependingloandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.application\\dtos\\createloandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|solutionrelative:readhub.libro.application\\dtos\\createloandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.application\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E47941-5FF1-4B2E-8BC5-ABC64CF62CAA}|ReadHub.Libro.Application\\ReadHub.Libro.Application.csproj|solutionrelative:readhub.libro.application\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DC671-E23C-465B-AC79-F124149AB6A4}|ReadHub.Libro.Api\\ReadHub.Libro.Api.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5DC671-E23C-465B-AC79-F124149AB6A4}|ReadHub.Libro.Api\\ReadHub.Libro.Api.csproj|solutionrelative:readhub.libro.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DC671-E23C-465B-AC79-F124149AB6A4}|ReadHub.Libro.Api\\ReadHub.Libro.Api.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C5DC671-E23C-465B-AC79-F124149AB6A4}|ReadHub.Libro.Api\\ReadHub.Libro.Api.csproj|solutionrelative:readhub.libro.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DC671-E23C-465B-AC79-F124149AB6A4}|ReadHub.Libro.Api\\ReadHub.Libro.Api.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.api\\controllers\\solicitudprestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5DC671-E23C-465B-AC79-F124149AB6A4}|ReadHub.Libro.Api\\ReadHub.Libro.Api.csproj|solutionrelative:readhub.libro.api\\controllers\\solicitudprestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DC671-E23C-465B-AC79-F124149AB6A4}|ReadHub.Libro.Api\\ReadHub.Libro.Api.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.api\\controllers\\renovacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5DC671-E23C-465B-AC79-F124149AB6A4}|ReadHub.Libro.Api\\ReadHub.Libro.Api.csproj|solutionrelative:readhub.libro.api\\controllers\\renovacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DC671-E23C-465B-AC79-F124149AB6A4}|ReadHub.Libro.Api\\ReadHub.Libro.Api.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.api\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5DC671-E23C-465B-AC79-F124149AB6A4}|ReadHub.Libro.Api\\ReadHub.Libro.Api.csproj|solutionrelative:readhub.libro.api\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DC671-E23C-465B-AC79-F124149AB6A4}|ReadHub.Libro.Api\\ReadHub.Libro.Api.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.api\\controllers\\multascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5DC671-E23C-465B-AC79-F124149AB6A4}|ReadHub.Libro.Api\\ReadHub.Libro.Api.csproj|solutionrelative:readhub.libro.api\\controllers\\multascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DC671-E23C-465B-AC79-F124149AB6A4}|ReadHub.Libro.Api\\ReadHub.Libro.Api.csproj|c:\\users\\godin\\gestor-biblioteca2\\readhub.libro.api\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5DC671-E23C-465B-AC79-F124149AB6A4}|ReadHub.Libro.Api\\ReadHub.Libro.Api.csproj|solutionrelative:readhub.libro.api\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Api\\Controllers\\LoansController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ReadHub.Libro.Api\\Controllers\\LoansController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1795,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +162,176 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoanRenewalRequestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Infrastructure\\Persistence\\LoanRenewalRequestRepository.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Infrastructure\\Persistence\\LoanRenewalRequestRepository.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Infrastructure\\Persistence\\LoanRenewalRequestRepository.cs",
+              "RelativeToolTip": "ReadHub.Libro.Infrastructure\\Persistence\\LoanRenewalRequestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:33:33.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Infrastructure\\Persistence\\LoanRepository.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Infrastructure\\Persistence\\LoanRepository.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Infrastructure\\Persistence\\LoanRepository.cs",
+              "RelativeToolTip": "ReadHub.Libro.Infrastructure\\Persistence\\LoanRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:33:32.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FineRepository.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Infrastructure\\Persistence\\FineRepository.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Infrastructure\\Persistence\\FineRepository.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Infrastructure\\Persistence\\FineRepository.cs",
+              "RelativeToolTip": "ReadHub.Libro.Infrastructure\\Persistence\\FineRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:33:29.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Infrastructure\\DataContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Infrastructure\\DataContext\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Infrastructure\\DataContext\\AppDbContext.cs",
+              "RelativeToolTip": "ReadHub.Libro.Infrastructure\\DataContext\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:33:23.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoanRenewalRequest.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Domain\\Entities\\LoanRenewalRequest.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Domain\\Entities\\LoanRenewalRequest.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Domain\\Entities\\LoanRenewalRequest.cs",
+              "RelativeToolTip": "ReadHub.Libro.Domain\\Entities\\LoanRenewalRequest.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:33:16.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PendingLoanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Infrastructure\\Persistence\\PendingLoanRepository.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Infrastructure\\Persistence\\PendingLoanRepository.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Infrastructure\\Persistence\\PendingLoanRepository.cs",
+              "RelativeToolTip": "ReadHub.Libro.Infrastructure\\Persistence\\PendingLoanRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:32:53.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PendingLoanBook.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Domain\\Entities\\PendingLoanBook.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Domain\\Entities\\PendingLoanBook.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Domain\\Entities\\PendingLoanBook.cs",
+              "RelativeToolTip": "ReadHub.Libro.Domain\\Entities\\PendingLoanBook.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:33:13.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoanItem.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Domain\\Entities\\LoanItem.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Domain\\Entities\\LoanItem.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Domain\\Entities\\LoanItem.cs",
+              "RelativeToolTip": "ReadHub.Libro.Domain\\Entities\\LoanItem.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:33:11.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Fine.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Domain\\Entities\\Fine.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Domain\\Entities\\Fine.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Domain\\Entities\\Fine.cs",
+              "RelativeToolTip": "ReadHub.Libro.Domain\\Entities\\Fine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:33:05.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Domain\\Interfaces\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Domain\\Interfaces\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Domain\\Interfaces\\IBookRepository.cs",
+              "RelativeToolTip": "ReadHub.Libro.Domain\\Interfaces\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:32:46.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "ReadHub.Libro.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:32:25.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PendingLoanService.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Services\\PendingLoanService.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Application\\Services\\PendingLoanService.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Services\\PendingLoanService.cs",
+              "RelativeToolTip": "ReadHub.Libro.Application\\Services\\PendingLoanService.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAIwIsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:30:19.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Domain\\Entities\\Book.cs",
               "RelativeDocumentMoniker": "ReadHub.Libro.Domain\\Entities\\Book.cs",
               "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Domain\\Entities\\Book.cs",
               "RelativeToolTip": "ReadHub.Libro.Domain\\Entities\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T00:02:48.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Loan.cs",
               "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Domain\\Entities\\Loan.cs",
               "RelativeDocumentMoniker": "ReadHub.Libro.Domain\\Entities\\Loan.cs",
@@ -55,11 +339,272 @@
               "RelativeToolTip": "ReadHub.Libro.Domain\\Entities\\Loan.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T23:57:08.574Z"
+              "WhenOpened": "2025-11-10T23:57:08.574Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
+              "Title": "LoanService.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Services\\LoanService.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Application\\Services\\LoanService.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Services\\LoanService.cs",
+              "RelativeToolTip": "ReadHub.Libro.Application\\Services\\LoanService.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAowHYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:28:31.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoanRenewalService.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Services\\LoanRenewalService.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Application\\Services\\LoanRenewalService.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Services\\LoanRenewalService.cs",
+              "RelativeToolTip": "ReadHub.Libro.Application\\Services\\LoanRenewalService.cs",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAIwAQBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:27:27.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Application\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Services\\EmailService.cs",
+              "RelativeToolTip": "ReadHub.Libro.Application\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:24:58.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Application\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Services\\BookService.cs",
+              "RelativeToolTip": "ReadHub.Libro.Application\\Services\\BookService.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:24:49.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "ReadHub.Libro.Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:24:43.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ILoanRenewalService.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Interfaces\\ILoanRenewalService.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Application\\Interfaces\\ILoanRenewalService.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Interfaces\\ILoanRenewalService.cs",
+              "RelativeToolTip": "ReadHub.Libro.Application\\Interfaces\\ILoanRenewalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:24:40.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Application\\Dtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "ReadHub.Libro.Application\\Dtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:24:36.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UpdateBookDto.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Dtos\\UpdateBookDto.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Application\\Dtos\\UpdateBookDto.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Dtos\\UpdateBookDto.cs",
+              "RelativeToolTip": "ReadHub.Libro.Application\\Dtos\\UpdateBookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:24:34.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoanExpirationChecker.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Services\\LoanExpirationChecker.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Application\\Services\\LoanExpirationChecker.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Services\\LoanExpirationChecker.cs",
+              "RelativeToolTip": "ReadHub.Libro.Application\\Services\\LoanExpirationChecker.cs",
+              "ViewState": "AgIAAGEBAAAAAAAAAAAwwGcBAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:10:18.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RenewLoanDto.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Dtos\\RenewLoanDto.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Application\\Dtos\\RenewLoanDto.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Dtos\\RenewLoanDto.cs",
+              "RelativeToolTip": "ReadHub.Libro.Application\\Dtos\\RenewLoanDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:24:31.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreatePendingLoanDto.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Dtos\\CreatePendingLoanDto.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Application\\Dtos\\CreatePendingLoanDto.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Dtos\\CreatePendingLoanDto.cs",
+              "RelativeToolTip": "ReadHub.Libro.Application\\Dtos\\CreatePendingLoanDto.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:24:28.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CreateLoanDto.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Dtos\\CreateLoanDto.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Application\\Dtos\\CreateLoanDto.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Dtos\\CreateLoanDto.cs",
+              "RelativeToolTip": "ReadHub.Libro.Application\\Dtos\\CreateLoanDto.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:24:24.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BookDto.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Dtos\\BookDto.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Application\\Dtos\\BookDto.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Application\\Dtos\\BookDto.cs",
+              "RelativeToolTip": "ReadHub.Libro.Application\\Dtos\\BookDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:24:21.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MultasController.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Api\\Controllers\\MultasController.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Api\\Controllers\\MultasController.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Api\\Controllers\\MultasController.cs",
+              "RelativeToolTip": "ReadHub.Libro.Api\\Controllers\\MultasController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:13:40.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PrestamosController.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Api\\Controllers\\PrestamosController.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Api\\Controllers\\PrestamosController.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Api\\Controllers\\PrestamosController.cs",
+              "RelativeToolTip": "ReadHub.Libro.Api\\Controllers\\PrestamosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:14:56.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RenovacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Api\\Controllers\\RenovacionesController.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Api\\Controllers\\RenovacionesController.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Api\\Controllers\\RenovacionesController.cs",
+              "RelativeToolTip": "ReadHub.Libro.Api\\Controllers\\RenovacionesController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowBgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:15:28.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SolicitudPrestamosController.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Api\\Controllers\\SolicitudPrestamosController.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Api\\Controllers\\SolicitudPrestamosController.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Api\\Controllers\\SolicitudPrestamosController.cs",
+              "RelativeToolTip": "ReadHub.Libro.Api\\Controllers\\SolicitudPrestamosController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:16:09.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Api\\appsettings.json",
+              "RelativeToolTip": "ReadHub.Libro.Api\\appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-17T03:16:59.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Api\\Program.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Api\\Program.cs",
+              "RelativeToolTip": "ReadHub.Libro.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:17:36.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Api\\Controllers\\LibrosController.cs",
+              "RelativeDocumentMoniker": "ReadHub.Libro.Api\\Controllers\\LibrosController.cs",
+              "ToolTip": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Api\\Controllers\\LibrosController.cs",
+              "RelativeToolTip": "ReadHub.Libro.Api\\Controllers\\LibrosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T03:13:07.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "LoansController.cs",
               "DocumentMoniker": "C:\\Users\\godin\\gestor-biblioteca2\\ReadHub.Libro.Api\\Controllers\\LoansController.cs",
               "RelativeDocumentMoniker": "ReadHub.Libro.Api\\Controllers\\LoansController.cs",
